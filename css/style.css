@@ -129,5 +129,26 @@ footer h2{
 
 nav.rd ul{
     display: flex;
+    justify-content: center;
     list-style: none;
+}
+
+.rd a{
+    padding: 10px;
+}
+
+.rd img{
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+
+.rd img:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+footer > p{
+    font-family: var(--font2);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
 }
