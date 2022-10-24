@@ -115,8 +115,8 @@ p.bold{
 }
 
 footer{
-    background-color: var(--cor0);
-    color: var(--cor4);
+    background-color: var(--cor2);
+    color: var(--cor0);
     height: 250px;
 }
 
