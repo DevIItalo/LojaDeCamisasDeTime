@@ -126,6 +126,10 @@ footer h2{
     justify-content: center;
     padding: 15px;
 }
+.sobre p{
+    text-align: center;
+    font-size: 1.3rem;
+}
 
 nav.rd ul{
     display: flex;
@@ -150,5 +154,5 @@ footer > p{
     font-family: var(--font2);
     font-weight: bold;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 25px;
 }
