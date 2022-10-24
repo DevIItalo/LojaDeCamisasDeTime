@@ -29,29 +29,93 @@ a{
 body{
     font-family: var(--font1);
 }
+
 header{
     background-color: var(--cor2);
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.315);
     
 }
+
 header > h1{
     
     font: normal normal 3.2rem 'COCO-EMPIRE';
 }
+
 .nav ul{
     list-style: none;
     display: flex;
     
 }
+
 .nav a{
     margin: 2px;
     padding: 10px;
     border-radius: 10px;
     transition-duration: .5s;
 }
+
 .nav a:hover{
     background-color: var(--cor0);
+}
+
+main.container{
+    background-color: var(--cor1);
+    min-height: 70vh;
+    padding: 50px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.315);
+}
+
+section.container-produto{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    margin: 30px;
+}
+
+.card img{
+    max-width: 100%;
+    display: block;
+
+}
+
+.card h3{
+    border-left: solid var(--cor3);
+    margin: 5px 0px;
+    font-size: 1.4rem;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+p.bold{
+    font: normal bold 1.4rem var(--font2);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor0);
+    padding: 20px;
+    border-radius: 15px;
+    transition-duration: .5s;
+}
+
+.btn:hover{
+    background-color: var(--cor3);
+    color: #000000;
+}
+
+footer{
+    background-color: var(--cor0);
+    color: white;
+    height: 200px;
 }
