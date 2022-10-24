@@ -116,6 +116,18 @@ p.bold{
 
 footer{
     background-color: var(--cor0);
-    color: white;
-    height: 200px;
+    color: var(--cor4);
+    height: 250px;
+}
+
+footer h2{
+    font: normal normal 1.7rem var(--font3);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+nav.rd ul{
+    display: flex;
+    list-style: none;
 }
